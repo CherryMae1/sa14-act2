@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Validation Checking</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Registration</h1>
+
+    <form id="userForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+      <span id="usernameError" class="error-message"></span><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" required>
+      <span id="emailError" class="error-message"></span><br>
+
+      <label for="password">Password:</label>
+      <input type="text" id="password" required>
+      <span id="passwordError" class="error-message"></span><br>
+
+
+      <button type="submit">Submit</button>
+    </form>
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

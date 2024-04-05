@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>5 Day Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Dashboard</h1>
+
+    <form id="weatherForm">
+      <label for="City"></label>
+      <input type="text" id="City", placeholder="Enter a city name" required>
+      <button type="sumbit">Sumbit</button>
+    </form>
+
+
+    <div id="weather">
+      <h2> Weather Info: </h2>
+      <p>City: <span id="city"></span></p>
+      <p>Current Time: <span id="currentTime"></span></p>
+      <p>Current Temperature: <span id="currentTemp"></span> °F</p>
+      <p>Weather Condition: <span id="condition"></span></p>
+      <p>Humidity: <span id="humidity"></span>%</p>
+    </div>
+
+
+    <div id="forecast">
+      <h2>5 Day Forecast</h2>
+      <div id="ForecastWeek"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

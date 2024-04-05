@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Currency Conversion Tool</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Conversion Machine</h1>
+    <br><br>
+    
+      <label for="Source">source</label>
+        <select id="Source">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+        </select>
+
+        <label for="Target">target</label>
+        <select id="Target">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+        </select>
+        
+      <label for="amount">Amount: </label>
+      <input type="number" id="amount" placeholder="Please enter amount">
+
+      <button onclick="Conversion()">Convert</button>
+      <br><br>
+
+      <div id="result"></div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
+
+
